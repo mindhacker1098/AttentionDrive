@@ -1,0 +1,14 @@
+# Python 3.10+ (developed with 3.11). CPU is enough; for a CUDA build of torch see pytorch.org.
+torch>=2.2
+highway-env==1.12.1
+gymnasium>=1.0
+numpy
+pandas
+matplotlib
+pygame-ce
+imageio
+imageio-ffmpeg
+# only for building the slides / scripts
+python-pptx
+python-docx
+pillow

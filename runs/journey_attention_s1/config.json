@@ -1,0 +1,20 @@
+{
+  "model": "attention",
+  "seed": 1,
+  "task": "journey",
+  "init": "runs/multi_attention_s1/model.pt",
+  "eps_start": 0.2,
+  "episodes": 600,
+  "gamma": 0.95,
+  "lr": 0.0005,
+  "batch_size": 64,
+  "buffer": 15000,
+  "target_update": 512,
+  "eps_tau": 5000.0,
+  "run_dir": null,
+  "parameters": 34499,
+  "obs_shape": [
+    15,
+    9
+  ]
+}

@@ -1,0 +1,19 @@
+# environment
+venv/
+__pycache__/
+*.pyc
+
+# training by-products (final models runs/*/model.pt ARE kept - they are tiny)
+runs/*/checkpoint.pt
+runs_test/
+logs/
+*.log
+
+# large or private files
+slides/*.pptx
+slides/*.docx
+slides/preview*/
+videos/journey_hq.mp4
+paper/
+TEAM_GUIDE.md
+_vizdoom.ini

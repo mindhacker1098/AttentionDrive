@@ -1,0 +1,18 @@
+{
+  "model": "cnn",
+  "seed": 1,
+  "episodes": 4000,
+  "gamma": 0.95,
+  "lr": 0.0005,
+  "batch_size": 64,
+  "buffer": 15000,
+  "target_update": 512,
+  "eps_tau": 15000,
+  "run_dir": null,
+  "parameters": 31363,
+  "obs_shape": [
+    7,
+    32,
+    32
+  ]
+}

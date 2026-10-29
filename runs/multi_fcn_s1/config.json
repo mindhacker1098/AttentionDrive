@@ -1,0 +1,18 @@
+{
+  "model": "fcn",
+  "seed": 1,
+  "task": "multi",
+  "episodes": 6000,
+  "gamma": 0.95,
+  "lr": 0.0005,
+  "batch_size": 64,
+  "buffer": 15000,
+  "target_update": 512,
+  "eps_tau": 15000,
+  "run_dir": null,
+  "parameters": 34307,
+  "obs_shape": [
+    15,
+    9
+  ]
+}
